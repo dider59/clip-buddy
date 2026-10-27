@@ -1,0 +1,106 @@
+/* Clip Buddy - Minimalist stylesheet */
+
+.clip-buddy-container {
+    padding: 0;
+    spacing: 0;
+}
+
+.clip-buddy-menu-box {
+    padding: 8px 0 0 0;
+}
+
+.clip-buddy-scroll {
+    max-height: 380px;
+}
+
+.clip-buddy-list {
+    spacing: 2px;
+    padding: 4px 8px;
+}
+
+.clip-buddy-empty {
+    spacing: 12px;
+    padding: 32px 16px;
+    min-height: 180px;
+}
+
+.clip-buddy-empty-icon {
+    color: rgba(255,255,255,0.25);
+    margin-bottom: 8px;
+}
+
+.clip-buddy-empty-label {
+    font-size: 13px;
+    color: rgba(255,255,255,0.55);
+    font-weight: 400;
+}
+
+.clip-buddy-item {
+    background-color: transparent;
+    border-radius: 8px;
+    padding: 8px 10px;
+    transition: background-color 120ms ease;
+    border: none;
+}
+
+.clip-buddy-item:hover {
+    background-color: rgba(255,255,255,0.08);
+}
+
+.clip-buddy-item:active {
+    background-color: rgba(255,255,255,0.12);
+}
+
+.clip-buddy-item-label {
+    font-size: 13px;
+    color: rgba(255,255,255,0.85);
+    font-weight: 400;
+}
+
+/* Bottom row */
+.clip-buddy-bottom {
+    spacing: 8px;
+    padding: 8px 8px 8px 8px;
+    border-top: 1px solid rgba(255,255,255,0.08);
+    margin-top: 4px;
+}
+
+.clip-buddy-search {
+    border-radius: 8px;
+    padding: 4px 10px;
+    background-color: rgba(255,255,255,0.07);
+    border: 1px solid rgba(255,255,255,0.08);
+    selection-background-color: rgba(255,255,255,0.2);
+    min-height: 28px;
+}
+
+.clip-buddy-search:focus {
+    border-color: rgba(255,255,255,0.2);
+    background-color: rgba(255,255,255,0.1);
+}
+
+.clip-buddy-clear {
+    border-radius: 8px;
+    padding: 6px 8px;
+    background-color: rgba(255,255,255,0.06);
+    border: 1px solid transparent;
+    transition: all 120ms ease;
+}
+
+.clip-buddy-clear:hover {
+    background-color: rgba(255,255,255,0.12);
+}
+
+.clip-buddy-clear:active {
+    background-color: rgba(255,255,255,0.18);
+}
+
+.clip-buddy-clear-confirm {
+    background-color: rgba(231, 76, 60, 0.25);
+    border-color: rgba(231, 76, 60, 0.4);
+    color: #ff8a80;
+}
+
+.clip-buddy-clear-confirm:hover {
+    background-color: rgba(231, 76, 60, 0.35);
+}

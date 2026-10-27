@@ -1,0 +1,13 @@
+{
+  "uuid": "clip-buddy@minimal.shell",
+  "name": "Clip Buddy",
+  "description": "Simple, minimalist clipboard manager. Top bar icon only, clean history list, search + clear.",
+  "shell-version": [
+    "48",
+    "49",
+    "50"
+  ],
+  "url": "https://github.com/minimal/clip-buddy",
+  "settings-schema": "org.gnome.shell.extensions.clip-buddy",
+  "version": 4
+}
